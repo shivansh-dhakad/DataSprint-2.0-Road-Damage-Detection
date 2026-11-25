@@ -1,0 +1,12 @@
+# Python 3.10+ ; GPU strongly recommended (CUDA build of torch). Tested in the Kaggle notebook image (Nov 2026).
+# YOLO26 needs a recent Ultralytics release (the model family was added in the 8.4 series).
+ultralytics>=8.4.0
+torch>=2.2
+torchvision>=0.17
+numpy>=1.24
+pandas>=2.0
+opencv-python-headless>=4.8
+Pillow>=10.0
+tqdm>=4.66
+# only needed for src/train.py (extra robustness augmentations; training still works without it)
+albumentations>=2.0
