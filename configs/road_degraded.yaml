@@ -1,0 +1,8 @@
+path: /kaggle/working/yolo_degraded
+train: images/val
+val: images/val
+names:
+  0: D00
+  1: D10
+  2: D20
+  3: D40
