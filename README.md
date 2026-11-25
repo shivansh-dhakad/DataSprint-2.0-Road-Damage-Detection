@@ -9,7 +9,7 @@ Detect and classify road damage in street-level photos (RDD2020: India, Japan, C
 | 2 | D20 | Alligator crack |
 | 3 | D40 | Pothole |
 
-> **Want to see the detections instead of reading a CSV?** Test the model visually with the demo repository: **https://github.com/shivansh-dhakad/PAVEXA**
+> **Want to see the detections instead of reading a CSV?** Test the model visually with the demo repository: **https://github.com/shivansh-dhakad/PAVEXA** or directly check the project on https://pavexa-five.vercel.app/
 
 Author: Shivansh Dhakad ([@shivansh-dhakad](https://github.com/shivansh-dhakad)) · Competition: DataSprint 2.0 (Anveshan, NIE Mysuru), Kaggle, 23–25 Nov 2026
 
@@ -214,7 +214,7 @@ python src/train.py --data work/road.yaml --imgsz 640  --batch 32 --close-mosaic
 # copy runs/<name>/weights/best.pt to weights/yolo26s_1024_best.pt and weights/yolo26s_640_best.pt
 ```
 
-**Test the model visually:** open **https://github.com/shivansh-dhakad/PAVEXA** to try the detector on images and see the boxes drawn.
+**Test the model visually:** open https://pavexa-five.vercel.app/ to try the detector on images and see the boxes drawn.
 
 ## 12. Limitations, future work & credits
 * Thin cracks (D00, D10) and the 720×720 image group remain the weak spots; severe blur/darkness lowers recall.
